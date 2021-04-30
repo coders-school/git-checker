@@ -17,7 +17,7 @@ jobs:
     - name: Checkout git-majonez repo
       uses: actions/checkout@v2
       with:
-        fetch-depth: '0'
+        fetch-depth: 100
         repository: ${{ env.repo }}
         path: ${{ env.path }}
     - name: Run tree-check.sh
