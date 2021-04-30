@@ -6,19 +6,22 @@ jobs:
   git-checker:
     runs-on: ubuntu-latest
     env:
-      repo: `cat address.txt`
       path: git-majonez
     steps:
     - name: Check out code
       uses: actions/checkout@master
+    - name: Set the repo address
+      run: |
+        echo -n "repo=" >> $GITHUB_ENV
+        cat address.txt >> $GITHUB_ENV
     - name: Checkout git-majonez repo
       uses: actions/checkout@v2
       with:
-        repository: env.repo
+        repository: ${{ env.repo }}
         path: env.path
     - name: Run tree-check.sh
       working-directory: .github/scripts
-      run: ./tree-check.sh ../../env.path
+      run: ./tree-check.sh ../../${{ env.path }}
     - name: Run history-check.sh
       working-directory: .github/scripts
-      run: ./history-check.sh ../../env.path/history.txt
+      run: ./history-check.sh ../../${{ env.path }}/history.txt
