@@ -9,13 +9,12 @@ dirExist ${DIR}
 fileExist ${DIR}/$M
 
 cd ${DIR}
-git log --oneline
 git log --oneline >> $L
 echo "cat $L"
 cat $L
 
 echo "compiling code..."
-g++ ${DIR}/$M
+g++ $M
 
 echo "🔎 Performing checks"
 echo
@@ -25,7 +24,7 @@ pattern ${L} "Greetings" "Greetings"
 pattern ${L} "Merge branch cs" "Merge branch"
 pattern ${L} "Merge" "Merge"
 pattern ${L} "History added" "History added"
-pattern ${DIR}/${M} "Hello Coders School in $M" "Hello Coders School"
+pattern ${M} "Hello Coders School in $M" "Hello Coders School"
 echo
 
 summary
