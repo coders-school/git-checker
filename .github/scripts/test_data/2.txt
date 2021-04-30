@@ -1,0 +1,15 @@
+mkdir    git-majonez
+git init
+cd git-majonez
+touch  main.cpp
+git add main.cpp
+git  commit -m"Initial commit"
+git   remote  add  origin  https://github.com/octocat/sth.git
+git  push  -u  origin  master
+git checkout -b cs
+git reset HEAD^
+git stash
+git stash pop
+git  push  origin  cs
+git checkout master
+git merge cs
