@@ -13,7 +13,7 @@ jobs:
     - name: Set the repo address
       run: |
         echo -n "repo=" >> $GITHUB_ENV
-        cat address.txt >> $GITHUB_ENV
+        cat homework/address.txt >> $GITHUB_ENV
     - name: Checkout git-majonez repo
       uses: actions/checkout@v2
       with:
