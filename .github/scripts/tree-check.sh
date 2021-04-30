@@ -8,7 +8,12 @@ L=log\.txt
 dirExist ${DIR}
 fileExist ${DIR}/$M
 
+git log --oneline
 git log --oneline >> $L
+echo "cat $L"
+cat $L
+
+echo "compiling code..."
 g++ ${DIR}/$M
 
 echo "🔎 Performing checks"
