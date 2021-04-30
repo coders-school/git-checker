@@ -8,6 +8,7 @@ L=log\.txt
 dirExist ${DIR}
 fileExist ${DIR}/$M
 
+cd ${DIR}
 git log --oneline
 git log --oneline >> $L
 echo "cat $L"
