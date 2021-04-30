@@ -19,16 +19,6 @@ jobs:
         git clone https://github.com/${{ env.repo }}.git ${{ env.path }}
         git log --oneline
         git log --oneline > loggg.txt
-    - name: Checkout git-majonez repo
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        repository: ${{ env.repo }}
-        path: ${{ env.path }}
-      run: |
-        git checkout master
-        git log --oneline
-        git log --oneline > loggg.txt
     - name: Run tree-check.sh
       working-directory: .github/scripts
       run: ./tree-check.sh ../../${{ env.path }}
