@@ -2,13 +2,14 @@
 source functions.sh
 
 DIR=$1
-dirExist ${DIR}
-
-L=log\.txt
 M=main\.cpp
+L=log\.txt
+
+dirExist ${DIR}
+fileExist ${DIR}/$M
 
 git log --oneline >> $L
-g++ $M
+g++ ${DIR}/$M
 
 echo "🔎 Performing checks"
 echo
@@ -17,7 +18,7 @@ pattern ${L} "Farewell changed" "Farewell changed"
 pattern ${L} "Greetings" "Greetings"
 pattern ${L} "Merge branch cs" "Merge branch"
 pattern ${L} "History added" "History added"
-pattern ${M} "Hello Coders School in $M" "Hello Coders School"
+pattern ${DIR}/${M} "Hello Coders School in $M" "Hello Coders School"
 echo
 
 summary
