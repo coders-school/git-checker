@@ -4,8 +4,8 @@ source functions.sh
 DIR=$1
 dirExist ${DIR}
 
-$L=log\.txt
-$M=main\.cpp
+L=log\.txt
+M=main\.cpp
 
 git log --oneline >> $L
 g++ $M
