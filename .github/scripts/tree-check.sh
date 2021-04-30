@@ -12,9 +12,10 @@ cd ${DIR}
 git log --oneline >> $L
 cat $L
 
-echo "💻 compiling code..."
-g++ $M
+echo -n "💻 compiling code... "
+g++ $M && echo "✅ OK"
 
+echo
 echo "🔎 Performing checks"
 echo
 pattern ${L} "Initial commit" "Initial commit"
