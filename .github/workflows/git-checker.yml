@@ -14,11 +14,15 @@ jobs:
       run: |
         echo -n "repo=" >> $GITHUB_ENV
         cat address.txt >> $GITHUB_ENV
+    - name: My checkout
+      run: |
+        git clone https://github.com/${{ env.repo }}.git ${{ env.path }}
+        git log --oneline
+        git log --oneline > loggg.txt
     - name: Checkout git-majonez repo
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
-        ref: master
         repository: ${{ env.repo }}
         path: ${{ env.path }}
       run: |
