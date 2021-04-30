@@ -3,7 +3,7 @@ name: Git Checker
 on: [push, pull_request]
 
 jobs:
-  git-checker:
+  git:
     runs-on: ubuntu-latest
     env:
       path: git-majonez
