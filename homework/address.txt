@@ -1,1 +1,1 @@
-replace the whole line with your repo address - Rogal255/git-majonez
+Rogal255/git-majonez
