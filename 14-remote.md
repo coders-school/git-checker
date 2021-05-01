@@ -2,7 +2,7 @@
 
 ## Git
 
-### `remote` {#-remote-}
+### `remote`
 
 - `git remote -v` - wyświetla źródło sklonowanego repozytorium
 - `git remote add NAME ADDRESS` - zapisuje zdalne repozytorium o wskazanym adresie ADDRESS i przypisuje mu nazwę NAME

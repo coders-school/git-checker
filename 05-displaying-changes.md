@@ -2,7 +2,7 @@
 
 ## Git
 
-### Wyświetlanie zmian {#wyswietlanie-zmian}
+### Wyświetlanie zmian
 
 - `git log` - pozwala wyświetlić listę commitów (wprowadzonych zmian)
 - `git show` - wyświetla zmiany dokonane w najnowszym commicie.

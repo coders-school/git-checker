@@ -2,7 +2,7 @@
 
 ## Git
 
-### `stash` {#narzedzia-programisty}
+### `stash`
 
 - `git stash` - pozwala przechować zmiany bez wprowadzania ich, by móc prowadzić w tym czasie inne działania na obecnej gałęzi.
 - `git stash pop` - przywraca przechowane zmiany

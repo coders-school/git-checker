@@ -2,7 +2,7 @@
 
 ## Git
 
-### Tworzenie gałęzi {#-branch-}
+### Tworzenie gałęzi
 
 Gałęzie pozwalają wprowadzać do kodu zmiany niezależnie od siebie. Najczęściej stosuje się je w celu rozwoju kilku różnych funkcjonalności równolegle.
 
@@ -12,7 +12,7 @@ Gałęzie pozwalają wprowadzać do kodu zmiany niezależnie od siebie. Najczę�
 - `git checkout -b NAME` - tworzy branch o nazwie NAME i przełącza się na niego (połączenie `git branch NAME` + `git checkout NAME`)
 - `git checkout name` - przełącza na branch o nazwie name
 
-### Łączenie gałęzi {#-merge-}
+### Łączenie gałęzi
 
 - `git merge NAME` - łączy gałąź NAME z gałęzią na której aktualnie pracujesz. Często podczas tej operacji pojawiają się konflikty.
 
