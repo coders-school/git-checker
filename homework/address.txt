@@ -1,1 +1,1 @@
-{pako2200}/{git-majonez}
+pako2200/git-majonez
