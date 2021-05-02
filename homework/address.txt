@@ -1,1 +1,21 @@
-replace the whole line with your repo address - {user}/{repo}
+    1  mkdir git-majonez
+    2  cd git-majonez/
+    3  git init
+    4  touch main.cpp
+    5  git add main.cpp 
+    6  git commit -m"Initial commit"
+    7  git add main.cpp 
+    8  git commit -m"Farewell changed"
+    9  git remote add origin https://github.com/Sebastian302653/git-majonez.git
+   10  git push -u origin master
+   11  git checkout -b cs
+   12  git log
+   13  git reset --hard f6520b451c1000ef34879d12ce98075acf4973c9
+   14  git add main.cpp 
+   15  git commit -m"Greetings"
+   16  git push origin cs
+   17  git checkout master
+   18  git merge cs
+   19  git status
+   20  git log
+   21  history > history.txt
