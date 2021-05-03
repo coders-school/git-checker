@@ -1,1 +1,1 @@
-{ploWoj}/{git-majonez}
+ploWoj/git-majonez
