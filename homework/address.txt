@@ -1,1 +1,1 @@
-replace the whole line with your repo address - {jantob6637}/{git-majonez}
+jantob6637/git-majonez
