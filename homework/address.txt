@@ -1,1 +1,1 @@
-https://github.com/LawierMB/git-majonez.git
+LawierMB/git-majonez.git
