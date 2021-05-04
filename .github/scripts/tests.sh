@@ -2,7 +2,7 @@
 
 function test()
 {
-    ./history-check.sh "$1" > /dev/null
+    ./history-check.sh "$1" #> /dev/null
     if [[ "$?" -eq 0 ]] ; then
         echo "$1... ✅ Passed"
     else
@@ -15,3 +15,4 @@ test test_data/2.txt
 test test_data/3.txt
 test test_data/4.txt
 test test_data/5.txt
+test test_data/6.txt
