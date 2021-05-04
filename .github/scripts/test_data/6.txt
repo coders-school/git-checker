@@ -1,0 +1,180 @@
+  210  git rm main
+  211  git status
+  212  rm main
+  213  git status
+  214  ls
+  215  git add main.cpp
+  216  git status
+  217  git commit -m"initial commit"
+  218  git status
+  219  git show
+  220  git status
+  221  git add main.cpp
+  222  git status
+  223  git commit -m"Farewell changed"
+  224  git status
+  225  std::cout<< "Goodbye World";
+  226  return 0;
+  227  q
+  228  git status
+  229  ls
+  230  cd git-majonez/
+  231  ls
+  232  git status
+  233  git add main.cpp
+  234  git status
+  235  git commit -m"Greetings"
+  236  git log
+  237  git push origin cs
+  238  git checkout master
+  239  git log
+  240  git diff cd..master
+  241  git diff cs..master
+  242  git status
+  243  git merge cs
+  244  git status
+  245  git add main.cpp
+  246  git status
+  247  git commit main.cpp
+  248  git commit
+  249  git status
+  250  touch history.txt
+  251  git status
+  252  history >history.txt
+  253  cat history.txt
+  254  history -35 >>history.txt
+  255  history|tail -35 >>history.txt
+  256  cat history.txt
+  257  history|tail -5 >>history.txt
+  258  cat history.txt
+  259  history|tail -40 >history.txt
+  260  cat history.txt
+  261  history|tail -53 >history.txt
+  262  cat history.txt
+  263  git init
+  264  git status
+  265  history|tail -56 >history.txt
+  266  touch main.txt
+  267  git status
+  268  rm main.txt
+  269  git status
+  270  history|tail -59 >history.txt
+  271  cat history.txt
+  272  touch main.cpp
+  273  git status
+  274  ls
+  275  cat main.cpp
+  276  history|tail -60>history.txt
+  277  cat history.txt
+  278  history|tail -80>history.txt
+  279  cat history.txt
+  280  history|tail -80>history.txt
+  281  cat history.txt
+  282  history|tail -80>history.txt
+  283  cat history.txt
+  284  git add history.txt
+  285  git status
+  286  git commit -m"History added"
+  287  git push
+  288  git push --set-upstream origin master
+  289  git status
+  290  mkdir git-majonez
+  291  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
+  292  git push -u origin main
+  293  history|tail -100>history.txt
+  294  git status
+  295  git add history.txt
+  296  git status
+  297  git commit -m"History added"
+  298  git push
+  299  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  300  git branch cs
+  301  git view
+  302  git show
+  303  git log
+  304  branch cs
+  305  git branch cs
+  306  checkout cs
+  307  checkout branch cs
+  308  git commit -m"initial commit"
+  309  git status
+  310  git checkout branch cs
+  311  git checkout cs
+  312  git status
+  313  git checkout master
+  314  git log
+  315  git checkout 0745645dc8d7635a293281dea517866c3391bb22
+  316  history|tail -150>history.txt
+  317  git status
+  318  git add history.txt
+  319  git commit -m"History added"
+  320  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  321  git checkout master
+  322  history|tail -180>history.txt
+  323  cat history.txt
+  324  history|tail -160>history.txt
+  325  cat history.txt
+  326  history|tail -150>history.txt
+  327  git commit -m"History added"
+  328  git add history.txt
+  329  git commit -m"History added"
+  330  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  331  git checkout "initial commit"
+  332  git checkout -m"initial commit"
+  333  git checkout -l "initial commit"
+  334  git checkout -l"initial commit"
+  335  git checkout "initial commit"
+  336  git checkout initial commit
+  337  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
+  338  git push -u origin main
+  339  git reset "initial commit"
+  340  git log
+  341  git reset 0745645dc8d7635a293281dea517866c3391bb22
+  342  git checkout master
+  343  git status
+  344  history|tail -150>history.txt
+  345  git add history.txt
+  346  git commit -m"History added"
+  347  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  348  git status
+  349  git reset master
+  350  git reset --hard  master
+  351  git status
+  352  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  353  git pull
+  354  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  355  git add history.txt
+  356  git commit -m"History added"
+  357  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  358  git remote push origin https://github.com/TomaszWeglinski2/git-majonez.git
+  359  git push -u origin main
+  360  git push origin main
+  361  git push -u origin main
+  362  history|tail -170>history.txt
+  363  git add history.txt
+  364  git commit -m"History added"
+  365  git remote push origin https://github.com/TomaszWeglinski2/git-majonez.git
+  366  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  367  git push
+  368  git push remote
+  369  git push --help
+  370  git push https://github.com/TomaszWeglinski2/git-checker.git
+  371  history|tail -180>history.txt
+  372  git add history.txt
+  373  git commit -m"History added"
+  374  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  375  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
+  376  git remote add origin https://github.com/TomaszWeglinski2/git-checker.git
+  377  history|tail -180>history.txt
+  378  git add history.txt
+  379  git commit -m"History added"
+  380  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  381  git add main.cpp
+  382  git commit main.cpp
+  383  git status
+  384  git commit -m"Main"
+  385  git status
+  386  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  387  git remote push origin https://github.com/TomaszWeglinski2/git-majonez.git
+  388  git push origin master
+  389  history|tail -180>history.txt

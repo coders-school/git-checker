@@ -1,0 +1,70 @@
+ 2062  cd zadanie_domowe/
+ 2063  mkdir git-majonez
+ 2064  cd git-majonez/
+ 2065  git init
+ 2066  code main.cpp
+ 2067  ls
+ 2068  git add main.cpp
+ 2069  git commit -m"Initial commit"
+ 2070  git show
+ 2071  git log
+ 2072  git status
+ 2073  git add main.cpp
+ 2074  git commit -m "Farewell changed"
+ 2075  git show
+ 2076  git log --graph
+ 2077  git remote add origin https://github.com/bartosz-gruszczyk/git-majonez.git
+ 2078  git branch
+ 2079  git push -u origin master
+ 2080  git status
+ 2081  git checkout -b cs
+ 2082  git branch
+ 2083  git log
+ 2084  gitk &
+ 2085  git restore b833084
+ 2086  git reset b833084
+ 2087  git status
+ 2088  cat main.cpp
+ 2089  git log
+ 2090  code main.cpp
+ 2091  ls
+ 2092  git branch
+ 2093  git commit -m "Greetings"
+ 2094  git add main.cpp
+ 2095  git status
+ 2096  git log
+ 2097  git commit -m "Greetings"
+ 2098  git show
+ 2099  git push origin cs
+ 2100  git checkout master
+ 2101  git merge master..cs
+ 2102  git branch
+ 2103  git merge master..cs
+ 2104  git checkout cs
+ 2105  git diff cs..master
+ 2106  git diff master_cs
+ 2107  git branch
+ 2108  git merge cs..master
+ 2109  git checkout master
+ 2110  ls
+ 2111  git status
+ 2112  git merge cs
+ 2113  git status
+ 2114  git show
+ 2115  git status
+ 2116  git log
+ 2117  git status
+ 2118  code main.cpp
+ 2119  git add main.cpp
+ 2120  git commit
+ 2121  git status
+ 2122  history
+ 2123  bc 122-62
+ 2124  wc 123-62
+ 2125  bc
+ 2126  history
+ 2127  history | tail -n 64 >> history.txt
+ 2128  cat history.txt
+ 2129  rm history.txt
+ 2130  history
+ 2131  history | tail -n 70 >> history.txt
