@@ -13,3 +13,4 @@ function test()
 test test_data/1.txt
 test test_data/2.txt
 test test_data/3.txt
+test test_data/4.txt

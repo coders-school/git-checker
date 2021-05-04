@@ -12,7 +12,7 @@ echo "🔎 Performing checks"
 echo
 pattern ${FILE} "Directory $G created" "mkdir(\s+).*$G"
 pattern ${FILE} "Repository initialized" "git(\s+)init"
-pattern ${FILE} "'$M' created" "touch(\s+)(.*)*$M"
+pattern ${FILE} "'$M' created" "(touch|code|vim|gedit|nano)(\s+)(.*)*$M"
 pattern ${FILE} "'$M' added" "git(\s+)add(\s+)($M|\.)"
 pattern ${FILE} "Commit created" "git(\s+)commit"
 pattern ${FILE} "'Remote repo address added" "git(\s+)remote(\s+)add(\s+)origin(\s+)"
