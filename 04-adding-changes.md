@@ -12,7 +12,7 @@
 - `git commit -m"sth"` - tworzy commit o treści sth (pomijając otwarcie edytora tekstu)
 
 Uwaga na `git add .`
-Jest to wygodna komenda, która dorzuci wszystko od bieżącego katalogu rekursywnie. Ale już widziałem zeznanie podatkowe jednego programisty wkomitowane do repozytorium. A modyfikacja historii repo to nie taka prosta sprawa. Lepiej przyjąć zasadę, że to co wkommitujesz, to już tam zostanie, bo nie masz kontroli nad tym kto w którym momencie pobierze lub zaktualizuje repo.
+Jest to wygodna komenda, która dorzuci wszystko od bieżącego katalogu rekursywnie. Już widziałem zeznanie podatkowe jednego programisty wkomitowane do repozytorium. Modyfikacja historii repo nie jest prostą sprawą. Lepiej przyjąć zasadę, że to co wkommitujesz, to już tam zostanie, bo nie masz kontroli nad tym kto w którym momencie pobierze lub zaktualizuje repo.
 
 ### Zadanie
 
