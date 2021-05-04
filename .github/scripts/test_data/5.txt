@@ -1,0 +1,25 @@
+ 2141  mkdir git-majonez
+  2142  cd git-majonez/
+  2143  git init
+  2145  vim main.cpp
+  2153  git add main.cpp
+  2154  git commit -m "Initial commit"
+  2156  vim main.cpp
+  2157  git add main.cpp
+  2158  git commit -m "Farewell changed"
+  2163  git remote add origin https://github.com/octopus1906/git-majonez.git
+  2165  git push -u origin master
+  2169  git checkout -b cs
+  2172  git rebase -i 1d1090886
+  2174  git push origin cs
+  2178  vim main.cpp
+  2179  git add main.cpp
+  2180  git commit -m "Greetings"
+  2182  git push -u origin cs
+  2185  git checkout master
+  2188  git merge cs
+  2190  vim main.cpp
+  2194  git add main.cpp
+  2196  git commit
+  2199  gitk &
+  2204  history 100 > history.txt
