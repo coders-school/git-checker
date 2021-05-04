@@ -21,7 +21,7 @@ echo
 pattern ${L} "Initial commit" "Initial commit"
 pattern ${L} "Farewell changed" "Farewell changed"
 pattern ${L} "Greetings" "Greetings"
-pattern ${L} "Merge branch cs" "Merge branch 'cs'"
+pattern ${L} "Merge branch cs" "Merge branch ('cs'|cs)"
 pattern ${L} "History added" "History added"
 pattern ${M} "Hello Coders School in $M" "Hello Coders School"
 echo
