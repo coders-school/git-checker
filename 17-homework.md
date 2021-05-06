@@ -30,6 +30,8 @@ ale powtórz każdy krok samemu, przepisując wszystko ręcznie. Podczas
 przepisywania coś zostanie Ci w głowie. To Tobie ma zależeć na nauczeniu
 się materiału.
 
+Aha, i użyj proszę komend GIT w konsoli. Dzięki temu automat CI będzie w stanie sprawdzić Tobie zadanie.
+
 Powodzenia!
 
 #### Część lokalna - tworzenie repo
