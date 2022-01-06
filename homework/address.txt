@@ -1,1 +1,1 @@
- kamilwojcik/git-checker 
+ kamilwojcik/git-majonez
