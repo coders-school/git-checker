@@ -1,1 +1,2 @@
 replace the whole line with your repo address - {user}/{repo}
+Piskle/git-majonez
