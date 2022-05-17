@@ -1,2 +1,1 @@
-replace the whole line with your repo address - {user}/{repo}
 SCigiel/git-majonez
