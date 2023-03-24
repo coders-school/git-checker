@@ -1,1 +1,1 @@
-replace the whole line with your repo address - kogrodnik/git-majonez
+kogrodnik/git-majonez
