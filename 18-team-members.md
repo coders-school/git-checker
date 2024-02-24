@@ -1,4 +1,3 @@
 # My name: Kehinde A
 
-
-## CLass name: DevSecOps 2024
+## Class name: DevSecOps 2024
