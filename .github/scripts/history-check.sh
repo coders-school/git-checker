@@ -20,7 +20,7 @@ pattern ${FILE} "Pushed to the remote repo" "git(\s+)push(\s+)-u(\s+)origin(\s+)
 pattern ${FILE} "Branch 'cs' created" "git(\s+)(branch|checkout(\s+)-b)(\s+)cs"
 pattern ${FILE} "HEAD moved to \"Initial commit\"" "git(\s+)reset(\s+)|git(\s+)rebase(\s+)-i"
 pattern ${FILE} "Branch 'cs' pushed" "git(\s+)push(\s+)origin(\s+)cs"
-pattern ${FILE} "Branch 'cs' merged into 'master'" "git(\s+)merge(\s+)cs"
+pattern ${FILE} "Branch 'cs' merged into 'master'" "git(\s+)merge(\s+)(.*)?cs"
 echo
 
 summary
