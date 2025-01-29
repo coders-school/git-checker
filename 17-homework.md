@@ -30,6 +30,8 @@ ale powtórz każdy krok samemu, przepisując wszystko ręcznie. Podczas
 przepisywania coś zostanie Ci w głowie. To Tobie ma zależeć na nauczeniu
 się materiału.
 
+Aha, i użyj proszę komend gita i linuxa w konsoli. Dzięki temu automat CI będzie w stanie sprawdzić Twoje zadanie.
+
 Powodzenia!
 
 #### Część lokalna - tworzenie repo
@@ -50,7 +52,7 @@ Powodzenia!
 
     ![push existing repo](img/setup-repo.png)
 
-3. Zgodnie z instrukcją dodaj adres zdalnego repozytorium (`git remote add origin ADDRESS`), ale pomiń tworzenie gałęzi main. Zrób push z i na gałąź master (`git push -u origin master`).
+3. Zgodnie z instrukcją dodaj adres zdalnego repozytorium (`git remote add origin ADDRESS`), ale pomiń tworzenie gałęzi main. Zrób push z lokalnej gałęzi master na zdalną (`git push -u origin master`).
 
 #### Część lokalna - nowa gałąź
 
