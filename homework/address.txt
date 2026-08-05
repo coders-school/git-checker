@@ -1,1 +1,1 @@
-https://github.com/szymsun/git-majonez.git
+szymsun/git-majonez
